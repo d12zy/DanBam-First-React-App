@@ -9,6 +9,8 @@ import {
 import { Beranda, Tentang, Booking } from './views';
 import { useDispatch, useSelector } from 'react-redux';
 
+// di halaman ini ada header dan footer. routing menggunakan React-router, juga state management menggunakan redux
+
 function App() {
   let menuRef;
 
@@ -39,7 +41,7 @@ function App() {
             <h1 className="Centered">DanBam Restaurant</h1>
           </div>
         </header>
-
+        {/* customer bisa memberi saran tentang menu baru */}
         <div className="App-Menu">
           <div>Anda juga boleh request untuk menu baru</div>
           <form onSubmit={_handleNewMenu}>

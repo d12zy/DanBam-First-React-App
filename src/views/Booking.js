@@ -1,5 +1,6 @@
 import React from 'react';
 
+// halaman Form (controlled form)
 
 export default class Booking extends React.Component {
   constructor(props) {

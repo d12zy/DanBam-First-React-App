@@ -5,6 +5,8 @@ export default function Beranda() {
   const [count, setCount] = useState(0);
 
   return (
+    // Di halaman beranda ini saya menampilkan halaman (bisa disebut) rating untuk customer restoran
+    // menggunakan hooks
       <div className="App-Rating">
         Semua tentang kenyamanan dan kepuasan pelanggan
         <br/>
