@@ -1,38 +1,125 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .App {
+  padding: 0;
+  margin: 0;
+}
+
+.Section-Beranda {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.408), rgba(0, 0, 0, 0.408)), url('../src/banner.jpg');
+  background-size: cover;
+  height: 755px;
+  margin-bottom: 2.5em;
+}
+
+.Main-Nav {
+  display: flex;
+  float: right;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 19px;
+  padding-right: 130px;
+  list-style: none;
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style: none;
+}
+
+.Main-Nav a {
+  display: flex;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style: none;
+}
+
+.Centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 60px;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.Section-Tentang {
+  padding: 2em;
+  background-color: blanchedalmond;
+  font-size: 20px;
+}
+
+.Quote {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Owner-Quote {
+  color: #FF8000;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Section-Booking {
+  margin-bottom: 5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Title {
+  text-align: center;
   align-items: center;
+  padding-top: 3rem;
+}
+
+.Book-Form {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+}
+
+.Form-Field {
+  height: 20px;
+  width: 300px;
+  margin: 1em;
+  padding: 10px;
+  border: none;
+  background-color: #f7ae6495;
+  border-radius: 25px;
+  outline: none;
+}
+
+.Tombol-dua {
+  background-color: #FF8000;
+  padding: 10px;
   color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+textarea {
+  height: 20px;
+  width: 300px;
+  margin: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #f7ae6495;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Section-Footer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.Title-dua {
+  color: #FF8000;
+  font-size: xx-large;
 }

@@ -1,0 +1,36 @@
+.App-Rating {
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  font-size: 20px;
+}
+
+.App-Rating .Bintang {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.App-Menu {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  font-size: 20px;
+}
+
+.Menu-Baru {
+  list-style: none;
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style: none;
+}
